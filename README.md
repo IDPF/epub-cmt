@@ -1,4 +1,4 @@
-# EPUB Custom Extensions
+# EPUB Core Media Types
 
 This repository identifies the Core Media Types supported in EPUB Publications.
 
