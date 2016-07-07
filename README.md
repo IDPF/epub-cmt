@@ -1,6 +1,6 @@
 # EPUB Core Media Types
 
-This repository identifies the Core Media Types supported in EPUB Publications.
+This repository identifies the Core Media Types that can be included in EPUB Publications.
 
 To view the documents hosted in this repository, please go to the [index page](http://idpf.github.io/epub-cmt).
 
