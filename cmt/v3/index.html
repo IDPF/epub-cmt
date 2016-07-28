@@ -32,7 +32,7 @@
             ul {
                 list-style-type: none;
             }
-            li {
+            ul > li {
                 margin-top: 1em;
             }
         </style>
@@ -73,8 +73,8 @@
         <nav id="toc" class="toc">
             <h2 class="toc-title">Table of Contents</h2>
             <ol class="toc">
-                <li><a href="#sec-overview">Overview</a></li>
-                <li><a href="#sec-cmt-supported">Supported Media Types</a></li>
+                <li><a href="#sec-overview">1. Overview</a></li>
+                <li><a href="#sec-cmt-supported">2. Supported Media Types</a></li>
                 <li><a href="#references">References</a>
                     <ol>
                         <li><a href="#normative-refs">Normative</a></li>
@@ -85,14 +85,13 @@
         </nav>
         
         <section id="sec-overview" class="chapter">
-            <h1 class="title">Overview</h1>
+            <h1 class="title">1. Overview</h1>
             
-            <p>This document identifies the set of Core Media Types that can be included without
-                fallbacks in EPUB 3 Publications.</p>
+            <p>This document identifies the set of Core Media Types that EPUB 3 Reading Systems support.</p>
         </section>
         
         <section id="sec-cmt-supported" class="chapter">
-            <h1 class="title">Supported Media Types</h1>
+            <h1 class="title">2. Supported Media Types</h1>
             
             <p>The following table lists the EPUB 3 Core Media Types.</p>
             
@@ -439,21 +438,10 @@
             <div class="bibliodiv" id="informative-refs">
                 <h3 class="title">Informative References</h3>
                 
-                <div id="refH264">
-                    <p>[H.264] <a class="italic" href="http://www.itu.int/rec/T-REC-H.264-201003-I/en">H.264 : Advanced video
-                            coding for generic audiovisual services</a>.</p>
-                </div>
-                
                 <div id="refRFC4329">
                     <p>[RFC4329] <a class="italic" href="http://tools.ietf.org/html/rfc4329">Scripting Media Types</a>. <span
                             class="author">B. Höhrmann.</span>
                         <span class="date">April 2006.</span>
-                    </p>
-                </div>
-                
-                <div id="refVP8">
-                    <p>[VP8] <a class="italic" href="https://datatracker.ietf.org/doc/draft-bankoski-vp8-bitstream/">VP8 Data
-                            Format and Decoding Guide</a>. <span class="author">J. Bankoski, et al.</span>
                     </p>
                 </div>
             </div>
