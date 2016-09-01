@@ -5,7 +5,7 @@
         <title>EPUB 3 Core Media Types</title>
         <link rel="stylesheet" type="text/css" href="https://www.idpf.org/epub/css/epub-spec-2016.css" />
         <style type="text/css">
-            body {
+            body{
                 max-width: 55em;
             }
             dl#roles dt,
@@ -20,56 +20,48 @@
             a.italic{
                 font-style: italic;
             }
-            div.table {
+            div.table{
                 margin-top: 3em;
             }
-            .tbl-group {
+            .tbl-group{
                 text-align: left;
                 border-bottom: none;
-                color: rgb(0,0,0);
-                background-color: rgb(240,248,255);
+                color: rgb(0, 0, 0);
+                background-color: rgb(240, 248, 255);
             }
-            ul {
+            ul{
                 list-style-type: none;
             }
-            ul > li {
+            ul > li{
                 margin-top: 1em;
-            }
-        </style>
+            }</style>
     </head>
     <body>
         <header>
             <p><a href="http://www.idpf.org"><img src="https://www.idpf.org/epub/images/idpflogo_web_125.jpg" alt="IDPF"
                         class="logo" /></a></p>
-            
             <h1>EPUB 3 Core Media Types</h1>
-            
             <p class="identity">
                 <span class="pubdate">1 August 2016</span>
             </p>
-            
             <div class="history">
                 <span class="history-title">Document history</span>
                 <ul>
                     <li><a href="https://github.com/IDPF/epub-cmt/commits/master/cmt/v3/index.html">Changes to this
                             document</a></li>
-                    <li><a href="https://github.com/IDPF/epub-cmt/issues"
-                        >Issue Tracker</a></li>
+                    <li><a href="https://github.com/IDPF/epub-cmt/issues">Issue Tracker</a></li>
                 </ul>
             </div>
         </header>
-        
         <section id="sotd" class="section">
             <h2>Status of this Document</h2>
             <p>This document is subject to change at any time with the approval of the EPUB Working Group.</p>
             <p>The media types defined in this document will not be removed, but may be deprecated.</p>
-            <p>Requests for additions, modifications and clarifications can be made through the <a 
-                href="https://github.com/IDPF/epub-cmt/issues">Issue Tracker</a>. <a 
-                    href="https://github.com/IDPF/epub-cmt/pulls">Pull requests</a> are also welcome.
-                Note that requests for new Core Media Types need to show that the requested media type has
-                broad support across platforms.</p>
+            <p>Requests for additions, modifications and clarifications can be made through the <a
+                    href="https://github.com/IDPF/epub-cmt/issues">Issue Tracker</a>. <a
+                    href="https://github.com/IDPF/epub-cmt/pulls">Pull requests</a> are also welcome. Note that requests for
+                new Core Media Types need to show that the requested media type has broad support across platforms.</p>
         </section>
-        
         <nav id="toc" class="toc">
             <h2 class="toc-title">Table of Contents</h2>
             <ol class="toc">
@@ -83,34 +75,27 @@
                 </li>
             </ol>
         </nav>
-        
         <section id="sec-overview" class="chapter">
             <h1 class="title">1. Overview</h1>
-            
             <p>This document identifies the set of Core Media Types that EPUB 3 Reading Systems support.</p>
         </section>
-        
         <section id="sec-cmt-supported" class="chapter">
             <h1 class="title">2. Supported Media Types</h1>
-            
             <p>The following table lists the EPUB 3 Core Media Types.</p>
-            
             <p>The columns in the table represent the following information:</p>
-            
             <ul>
-                <li><span class="bold">Media Type</span> &#8211; The MIME media type <a class="biblioref" href="#refRFC2046">[RFC2046]</a> 
-                    used to represent the given Publication Resource in the <a
-                            href="http://www.idpf.org/epub3/latest/packages#sec-manifest-elem">manifest</a>
-                        <a class="biblioref" href="#refPackages3">[Packages3]</a>.</li>
-                
-                <li><span class="bold">Content Type Definition</span> &#8211; The specification to which the given <a class="glossterm"
-                        href="http://www.idpf.org/epub3/latest#gloss-publication-resource-cmt">Core Media Type
-                        Resource</a> has to conform.</li>
-                
-                <li><span class="bold">Applies to</span> &#8211; The Publication Resource type(s) that the Media Type and Content Type 
-                    Definition applies to.</li>
+                <li><span class="bold">Media Type</span> &#8211; The MIME media type <a class="biblioref" href="#refRFC2046"
+                        >[RFC2046]</a> used to represent the given Publication Resource in the <a
+                        href="http://www.idpf.org/epub3/latest/packages#sec-manifest-elem">manifest</a>
+                    <a class="biblioref" href="#refPackages3">[Packages3]</a>.</li>
+
+                <li><span class="bold">Content Type Definition</span> &#8211; The specification to which the given <a
+                        class="glossterm" href="http://www.idpf.org/epub3/latest#gloss-publication-resource-cmt">Core Media
+                        Type Resource</a> has to conform.</li>
+
+                <li><span class="bold">Applies to</span> &#8211; The Publication Resource type(s) that the Media Type and
+                    Content Type Definition applies to.</li>
             </ul>
-            
             <div class="table" id="tbl-core-media-types">
                 <div class="table-contents">
                     <table>
@@ -182,8 +167,7 @@
                                         Content Documents</a> that use the <a
                                         href="http://www.w3.org/TR/html/the-xhtml-syntax.html#the-xhtml-syntax">XHTML
                                         syntax</a>
-                                    <a class="biblioref" href="#refHTML">[HTML]</a>.
-                                </td>
+                                    <a class="biblioref" href="#refHTML">[HTML]</a>. </td>
                             </tr>
                             <tr>
                                 <td id="cmt-js">
@@ -192,8 +176,7 @@
                                 <td>
                                     <a class="biblioref" href="#refRFC4329">[RFC4329]</a>
                                 </td>
-                                <td>Scripts. <a href="http://www.idpf.org/epub3/latest#superseded"
-                                    >Deprecates</a>
+                                <td>Scripts. <a href="http://www.idpf.org/epub3/latest#deprecated">Deprecates</a>
                                     <code class="media-type">text/javascript</code></td>
                             </tr>
                             <tr>
@@ -203,8 +186,8 @@
                                 <td>
                                     <a class="biblioref" href="#refOPF2">[OPF2]</a>
                                 </td>
-                                <td>The <a href="http://www.idpf.org/epub3/latest#deprecated"
-                                    >deprecated</a> NCX.</td>
+                                <td>The <a href="http://www.idpf.org/epub3/latest#superseded-removal">superseded</a>
+                                    NCX.</td>
                             </tr>
                             <tr>
                                 <td id="cmt-sfnt">
@@ -214,9 +197,9 @@
                                     <a class="biblioref" href="#refOpenType">[OpenType]</a>
                                     <a class="biblioref" href="#refTrueType">[TrueType]</a>
                                 </td>
-                                <td>OpenType and TrueType fonts. <a href="http://www.idpf.org/epub3/latest#superseded"
-                                        >Supersedes</a>
-                                    <code class="media-type">application/vnd.ms-opentype</code>. </td>
+                                <td>OpenType and TrueType fonts. <a href="http://www.idpf.org/epub3/latest#deprecated"
+                                        >Deprecate</a>
+                                    <code>application/vnd.ms-opentype</code>. </td>
                             </tr>
                             <tr>
                                 <td id="cmt-woff">
@@ -271,12 +254,11 @@
                                 <th colspan="3" id="cmt-grp-video" class="tbl-group">Video Types</th>
                             </tr>
                             <tr>
-                                <td colspan="3" id="cmt-vide-note">EPUB 3 does not currently define any video
-                                    codecs as Core Media Types. Refer to the note in <a
-                                        href="http://www.idpf.org/epub3/latest#note-video-codecs">EPUB Publications 
-                                        — Reading System Conformance</a> for informative recommendations on support 
-                                    for video codecs in EPUB Publications.
-                                </td>
+                                <td colspan="3" id="cmt-vide-note">EPUB 3 does not currently define any video codecs as Core
+                                    Media Types. Refer to the note in <a
+                                        href="http://www.idpf.org/epub3/latest#note-video-codecs">EPUB Publications — Reading
+                                        System Conformance</a> for informative recommendations on support for video codecs in
+                                    EPUB Publications. </td>
                             </tr>
                             <tr>
                                 <th colspan="3" id="cmt-grp-text" class="tbl-group">Text Types</th>
@@ -323,84 +305,68 @@
                 </div>
             </div>
         </section>
-        
         <section class="bibliography" id="references">
             <h1 class="title">References</h1>
-            
             <div class="bibliodiv" id="normative-refs">
                 <h2 class="title">Normative References</h2>
-                
                 <div id="refAAC">
                     <p>[AAC LC] <a class="italic"
                             href="http://www.iso.org/iso/iso_catalogue/catalogue_ics/catalogue_detail_ics.htm?csnumber=53943"
                             >ISO/IEC 14496-3:2009 - Information technology -- Coding of audio-visual objects -- Part 3:
                             Audio</a>. </p>
                 </div>
-                
                 <div id="refContentDocs3">
                     <p>[ContentDocs3] <a class="italic" href="epub-contentdocs.html">EPUB Content Documents 3</a>. </p>
                 </div>
-                
                 <div id="refGIF">
                     <p>[GIF] <a class="italic" href="http://www.w3.org/Graphics/GIF/spec-gif89a.txt">GRAPHICS INTERCHANGE
                             FORMAT(sm) Version 89a</a>. </p>
                 </div>
-                
                 <div id="refHTML">
                     <p>[HTML] <a class="italic" href="http://www.w3.org/TR/html/">HTML</a>. </p>
                 </div>
-                
                 <div id="refJPEG">
                     <p>[JPEG] <a class="italic" href="http://www.w3.org/Graphics/JPEG/itu-t81.pdf">JPEG Standard (JPEG
                             ISO/IEC 10918-1 ITU-T Recommendation T.81)</a>. </p>
                 </div>
-                
                 <div id="refMP3">
                     <p>[MP3] <a class="italic"
                             href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=22412"
                             >ISO/IEC 11172-3:1993 - Information technology -- Coding of moving pictures and associated audio
                             for digital storage media at up to about 1,5 Mbit/s -- Part 3: Audio</a>. </p>
                 </div>
-                
                 <div id="refMP4">
                     <p>[MP4] <a class="italic"
                             href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=38538"
                             >Information technology -- Coding of audio-visual objects -- Part 14: MP4 file format</a>. </p>
                 </div>
-                
                 <div id="refOverlays3">
                     <p>[MediaOverlays3] <a class="italic" href="epub-mediaoverlays.html">EPUB Media Overlays 3</a>. </p>
                 </div>
-                
                 <div id="refOpenType">
                     <p>[OpenType] <a class="italic" href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=52136">ISO/IEC
                             14496-22:2009 - Information technology -- Coding of audio-visual objects -- Part 22: Open Font
                             Format</a>.</p>
                 </div>
-                
                 <div id="refOPF2">
-                    <p>[OPF2] <a class="italic" href="http://www.idpf.org/epub/20/spec/OPF_2.0.1_draft.htm">Open Packaging 
-                        Format 2.0.1</a>.</p>
+                    <p>[OPF2] <a class="italic" href="http://www.idpf.org/epub/20/spec/OPF_2.0.1_draft.htm">Open Packaging
+                            Format 2.0.1</a>.</p>
                 </div>
-                
                 <div id="refPLS">
                     <p>[PLS] <a class="italic" href="http://www.w3.org/TR/pronunciation-lexicon/">Pronunciation Lexicon
                             Specification 1.0 (PLS)</a>. <span class="author">Paolo Baggia.</span>
                         <span class="date">14 October 2008.</span>
                     </p>
                 </div>
-                
                 <div id="refPNG">
                     <p>[PNG] <a class="italic" href="http://www.w3.org/TR/PNG/">Portable Network Graphics (PNG) Specification
                             (Second Edition)</a>. <span class="author">David Duce.</span>
                         <span class="date">10 November 2003.</span>
                     </p>
                 </div>
-                
                 <div id="refPackages3">
                     <p>[Packages3] <a class="italic" href="epub-packages.html">EPUB Packages 3</a>.</p>
                 </div>
-                
                 <div id="refRFC2046">
                     <p>[RFC2046] <a class="italic" href="http://tools.ietf.org/html/rfc2046">Multipurpose Internet Mail
                             Extensions (MIME) Part Two: Media Types</a> (RFC 2046). <span class="author">N. Freed, N.
@@ -408,11 +374,9 @@
                         <span class="date">November 1996.</span>
                     </p>
                 </div>
-                
                 <div id="refSVG">
                     <p>[SVG] <a class="italic" href="http://www.w3.org/TR/SVG/">Scalable Vector Graphics (SVG)</a>.</p>
                 </div>
-                
                 <div id="refTrueType">
                     <p>[TrueType] <a class="italic" href="https://developer.apple.com/fonts/TrueType-Reference-Manual/">Apple
                             TrueType Reference manual</a>. <span class="org">
@@ -421,23 +385,19 @@
                         <span class="date">2002.</span>
                     </p>
                 </div>
-                
                 <div id="refWOFF">
                     <p>[WOFF] <a class="italic" href="http://www.w3.org/TR/WOFF/">WOFF File Format 1.0</a>. <span
                             class="author">Jonathan Kew, et al.</span>
                     </p>
                 </div>
-                
                 <div id="refWOFF2">
                     <p>[WOFF2] <a class="italic" href="http://www.w3.org/TR/WOFF2/">WOFF File Format 2.0</a>. <span
                             class="author">Vladimir Levantovsky, et al.</span>
                     </p>
                 </div>
             </div>
-            
             <div class="bibliodiv" id="informative-refs">
                 <h3 class="title">Informative References</h3>
-                
                 <div id="refRFC4329">
                     <p>[RFC4329] <a class="italic" href="http://tools.ietf.org/html/rfc4329">Scripting Media Types</a>. <span
                             class="author">B. Höhrmann.</span>
