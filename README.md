@@ -1,3 +1,9 @@
+> [!WARNING]
+> **This repository is archived.** 
+>
+> Core media types are maintained in the [EPUB 3](https://www.w3.org/TR/epub/#sec-core-media-types) W3C Recommendation.
+
+
 # EPUB Core Media Types
 
 This repository identifies the Core Media Types that can be included in EPUB Publications.
